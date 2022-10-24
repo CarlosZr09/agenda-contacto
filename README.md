@@ -1,34 +1,6 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
 
 ### COMO INICIAR EL PROYECTO ###
-
-* composer install|composer update
-* npm install|npm run watch
+Primero que nada buenas tardes, mi nombre es carlos por falta de tiempo ya que me encuentro trabajando y me dieron un permiso de solo media hora, trate de hacerlo de acuerdo como me lo pidieron al momeno de hacer pull de igual manera ya daberia de estar todo funcional lo unico que le pido es :
+* Importar la base de datos que está en la raiz con el nombre "agenda.sql"
+* Verificar que tenga el archivo .env (Cambiar los datos para la conexion si fuera necesario)
+* Ejecutar el comando php artisan serve
