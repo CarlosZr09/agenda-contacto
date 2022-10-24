@@ -166,6 +166,8 @@ class AgendaController extends Controller
 	public function delete(Request $request, Contacts $contact)
 	{
 		if ($contact) {
+			Contactphones::where('contact_id', $contact->id)->delete();
+			Contactaddresses::where('contact_id', $contact->id)->delete();
 			$contact->delete();
 			echo json_encode(array("sw_error" => 0, "message" => "Se elimino el contacto."));
 		} else {
