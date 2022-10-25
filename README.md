@@ -4,5 +4,5 @@ Primero que nada buenas tardes, mi nombre es carlos por falta de tiempo ya que m
 * Importar la base de datos que está en la raiz con el nombre "agenda.sql"
 * Verificar que tenga el archivo .env (Cambiar los datos para la conexion si fuera necesario)
 * Ejecutar el comando php artisan serve
- #USER : carloszavaletaramirez@gmail.com
- #PASSWORD : 77205914
+* USER : carloszavaletaramirez@gmail.com
+* PASSWORD : 77205914
